@@ -12,10 +12,14 @@
 <body>
     <header>
         <nav id="navbar">
+            <div>
+                <a id="profile-link" href="http://www.linkedin.com/in/khitermed/" target="_blank">My LinkedIn
+                    Profile.</a>
+            </div>
             <ul>
-                <li class="navbar-link">About</li>
-                <li class="navbar-link">Work</li>
-                <li class="navbar-link">Contact</li>
+                <li class="navbar-link"><a href="#welcome-section">About</a></li>
+                <li class="navbar-link"><a href="#projects">Work</a></li>
+                <li class="navbar-link"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,13 +31,30 @@
                     Developer.</em></p>
             <p><em><b>Email: khiter.med7@gmail.com</b></em></p>
         </section>
-        <section id="projects">
+        <section id="projects" style="height: 2000px;">
+            <h2>These are some of my projects</h2>
+
             <div class="project-tile">
                 <div class="project-link"><a href=""></a></div>
-
+                <div class="project-name"></div>
             </div>
+
+            <button>Show all ></button>
         </section>
+        <section id="contact">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+        </section>
+        <footer>
+            <ul>
+                <li>**This is my first portfolio. All the projects and contact details given are personel.</li>
+                <li>Copyright©2022. Developed by <em><b>KHITER Achraf</b></em>.</li>
+            </ul>
+        </footer>
     </main>
+    <script>
+        const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+    </script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 

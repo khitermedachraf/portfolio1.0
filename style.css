@@ -1,0 +1,19 @@
+body {
+    position: absolute;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 99;
+    background-color: teal;
+    width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    body {}
+}
