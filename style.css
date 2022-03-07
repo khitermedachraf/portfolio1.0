@@ -106,6 +106,7 @@ footer {
 .contact-section-header>p {
     font-style: italic;
     margin-top: 0;
+    font-size: large;
 }
 
 /* Styling the footer.*/
@@ -119,7 +120,32 @@ footer {
     padding: 0 2em;
 }
 
-/* USing the Query Media: */
+/* Styling the contact-links  : */
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-links>.contact-details:hover {
+    transform: translateY(-8px);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+/* Using the Query Media: */
 @media only screen and (max-width: 550px) {
     body {
         position: absolute;
