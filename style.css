@@ -24,7 +24,7 @@ main {
     align-items: center;
     font-size: x-large;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    color: white;
+    padding-top: 100px;
 }
 
 #title {
@@ -129,5 +129,9 @@ footer {
     footer {
         flex-direction: column;
         justify-content: flex-start;
+    }
+
+    #welcome-section {
+        padding-bottom: 50px;
     }
 }
