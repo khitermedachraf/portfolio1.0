@@ -111,6 +111,7 @@ footer {
 /* Styling the contact section.*/
 footer {
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 4em;
 }
 
 /* USing the Query Media: */
