@@ -11,7 +11,7 @@
 ## Built With
 
 - HTML5
-- CSS3
+- CSS3/ Flexbox / Grid lyout.
 - Git and GitHub
 
 ### Prerequisites
@@ -28,12 +28,6 @@ To get a local copy (open and running), follow these simple steps.
 - Download or Clone Repository.
 - In case you downloaded repository Extract ZIP Folder.
 
-### Installation
-
-- One folder in your text editor.
-- Run `npm install` command to install all dependencies.
-
-_N.B: Make sure that you have node installed in your commputer, if not [Download Node](https://nodejs.org/en/)_
 
 ### Usage
 
