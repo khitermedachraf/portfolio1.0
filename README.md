@@ -2,7 +2,7 @@
 
 # **_first-personel-portfolioy_** project
 
-> Description: This is a professional project with FreeCodeCamp, This project was built to show My professional work and projects as a full-stack web developer.
+> Description: This is a professional project with Micoverse, This project was built to show My professional work and hard-skills as a full-stack web developer.
 
 ## Deployment
 
